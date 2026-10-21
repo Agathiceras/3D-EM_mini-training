@@ -191,7 +191,7 @@ COURSE.modules = [
           ['No Kodland Sparks: sempre uma imagem','No desafio da A3 e com o Sparks AI na A4, o aluno anexa a <b>imagem PNG ou JPG</b>, não o .blend. Ao publicar o projeto final, escolhe <b>Public</b>, ativa <b>Request feedback</b> e envia o link no cartão da aula.']
         ]},
         { t:'callout', kind:'warn', e:'🖼️', html:'<b>O Sparks não recebe arquivos .blend.</b> Se um aluno tentar enviar o projeto do Blender, lembre: o .blend fica no computador dele e para o Sparks vai a imagem do render.' },
-        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'guides', e:'🧰', title:'Guias técnicos passo a passo', blocks:[
         { t:'p', html:'Estes são os guias da equipe do curso para os problemas que mais se repetem em aula. Abra-os antes da sua primeira aula e deixe-os à mão:' },
