@@ -200,7 +200,7 @@ COURSE.modules = [
         ]},
         { t:'callout', kind:'warn', e:'🖼️', html:'<b>La plataforma y Kodland Sparks reciben imágenes, no archivos .blend.</b> Si un estudiante intenta subir el proyecto de Blender, recuérdale: el .blend se queda en su computadora y lo que se sube es la imagen.' },
         { t:'p', html:'Los <b>desafíos de Sparks</b> forman parte de las actividades para casa, y los proyectos del curso se publican en <b>Kodland Sparks</b>: el primero es el Marble Run, después del módulo de animación (módulo 4), y al final del curso el portafolio y el proyecto final. Practica aquí cómo se publica un proyecto:' },
-        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulación', title:'Publicar en Kodland Sparks', text:'Una réplica de Kodland Sparks: publicas un proyecto como una estudiante, conoces las tres opciones de visibilidad y resuelves los dos problemas más comunes. Toma unos 5 minutos. La verificación del módulo se desbloquea al terminar.' }
+        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulación', title:'Publicar en Kodland Sparks', text:'Una réplica de Kodland Sparks: publicas un proyecto como una estudiante, conoces las tres opciones de visibilidad y resuelves los dos problemas más comunes. Toma unos 5 minutos. La verificación del módulo se desbloquea al terminar.' }
       ]},
       { id:'guides', e:'🧰', title:'Guías técnicas paso a paso', blocks:[
         { t:'p', html:'Estas son las guías del equipo del curso que se mencionan en la preparación de la L1. Ábrelas antes de tu primera clase y tenlas a mano:' },
