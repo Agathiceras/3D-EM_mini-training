@@ -99,17 +99,17 @@ COURSE.modules = [
           ['🖱️','Acción antes que teoría','Muestras una acción, el estudiante la repite en su pantalla y te muestra el resultado, no solo lo que entendió.'],
           ['🧩','El error es parte del proceso','Primero una pregunta de diagnóstico, después una pista que pueda seguir. Nunca corriges el trabajo por el estudiante.']
         ]},
-        { t:'callout', kind:'good', e:'🤖', html:'Para casa, además de las actividades prácticas y las pruebas, hay <b>desafíos de Sparks</b>: actividades especiales que revisa el tutor de IA, con una recompensa aparte 💎 y un certificado.' }
+        { t:'callout', kind:'good', e:'🤖', html:'Además de las actividades prácticas y las pruebas, los estudiantes encontrarán <b>desafíos de Sparks</b> para realizar en casa. Se trata de actividades especiales que revisa el tutor de IA y que ofrecen una recompensa adicional 💎 y un certificado.' }
       ]},
       { id:'goals', e:'🎓', title:'Qué logra el estudiante', blocks:[
         { t:'p', html:'Al terminar el curso, el estudiante tiene estos logros:' },
         { t:'cards', cols:2, items:[
           ['🧱','Crea','Nueve miniproyectos y un proyecto final: una casita y un robot, un escenario para un juego de plataformas, el interior de una habitación, un Marble Run, un modelo humano, la caminata de un personaje, videos de simulaciones, y un escenario y un personaje con IA.'],
-          ['🤖','Usa la IA como herramienta','Le plantea una tarea, obtiene una idea, un concepto, un boceto, un modelo o una textura, y perfecciona el resultado en Blender. <b>Decide por su cuenta qué servicios usar</b>: el curso enseña un enfoque, no una herramienta concreta.'],
+          ['🤖','Usa la IA como herramienta','El estudiante recibe una tarea y desarrolla una idea, un concepto, un boceto, un modelo o una textura, para después perfeccionar el resultado en Blender. <b>Decide por su cuenta qué servicios utilizar</b>, ya que el curso enseña un enfoque de trabajo y no se limita a una herramienta concreta.'],
           ['🎬','Hace renders y videos animados','Primer render de la casita y el robot; después el render de un interior, videos con animación por fotogramas clave, un Marble Run, una caminata y videos de simulaciones y partículas.'],
           ['🛠️','Habilidades prácticas','Trabaja en Object Mode, Sculpt Mode y Edit Mode, usa los principales modificadores, configura materiales, texturas e iluminación, y anima objetos y personajes (huesos y simulaciones físicas).'],
-          ['🌟','Publica su portafolio en Kodland Sparks','Los trabajos terminados se publican en Sparks. El Marble Run, después del módulo de animación; y al final, el portafolio y el proyecto final ya reunidos para presentarlos.'],
-          ['💬','Habilidades para la vida','Comunicación (presentar su trabajo, dar y recibir retroalimentación), colaboración, pensamiento crítico y gestión del tiempo y de proyectos (dividir una tarea en partes y planificarla).']
+          ['🌟','Publica su portafolio en Kodland Sparks','Los trabajos terminados se publican en Sparks. Por ejemplo, el Marble Run se comparte después del módulo de animación, mientras que, al finalizar el curso, los estudiantes presentan su portafolio y su proyecto final reunidos.'],
+          ['💬','Habilidades para la vida','Se desarrollan habilidades de comunicación, como presentar su trabajo y dar y recibir retroalimentación, así como la colaboración, el pensamiento crítico y la gestión del tiempo y de proyectos, que implica dividir las tareas en partes y planificar cómo realizarlas.']
         ]}
       ]},
       { id:'les', e:'📖', title:'La primera lección', blocks:[
@@ -122,7 +122,7 @@ COURSE.modules = [
                  ['🧑‍🏫','Tu rol','<ul><li>Ayuda a que se familiaricen con la interfaz y obtengan rápido su <b>primer resultado</b>: no sobrecargues la clase con teoría. Primero muestras la acción, después el estudiante la repite.</li><li>Al inicio, conecta con el grupo, ayúdalos a orientarse y detecta a tiempo cualquier problema técnico.</li><li>La práctica <b>no es una copia del ejemplo</b>: el tema, las formas, la distribución y la paleta las elige el estudiante.</li><li>Termina ayudando a cada estudiante a registrar su resultado y a reconocer un logro concreto, sin comparar trabajos.</li></ul>'],
                  ['⚙️','En qué fijarte','<ul><li>Se trabaja en <b>Object Mode</b>: nada de editar vértices, aristas ni caras (eso llega en la próxima clase).</li><li>En la primera clase no es obligatorio usar atajos: pueden usar las herramientas del menú lateral izquierdo.</li><li>Durante la práctica independiente, todos comparten pantalla y tú supervisas y apoyas a tiempo.</li><li>Si un estudiante no logra iniciar Blender, deriva el caso a <b>soporte técnico</b> en una sala aparte.</li><li>Si el tiempo no alcanza, puedes reducir la composición a <b>tres figuras</b> y omitir el color.</li></ul>']] }
         ]},
-        { t:'callout', kind:'tip', e:'🔭', html:'<b>Próxima clase:</b> los estudiantes pasan a <b>Edit Mode</b>, editan vértices, aristas y caras, y modelan una casa a partir de un cubo. En el cierre de la L1 se anticipa: hoy todavía no editamos la forma de los objetos.' },
+        { t:'callout', kind:'tip', e:'🔭', html:'<b>Próxima clase:</b> los estudiantes aprenden a utilizar <b>Edit Mode</b> para modificar vértices, aristas y caras, y modelar una casa a partir de un cubo. Al finalizar la L1, se les anticipa que todavía no han trabajado en la modificación de la forma de los objetos, ya que esta habilidad se abordará más adelante.' },
         { t:'callout', kind:'tip', e:'🗺️', html:'La primera Teacher Note de la lección tiene el plan completo: misión, objetivo, resultado clave, un video, la preparación, los tiempos de cada tarjeta y los puntos a tener en cuenta. <b>Lee todas las Teacher Notes antes de la clase.</b> Los materiales se crearon con Blender 4.5.3; si notas una diferencia importante con la versión actual, avísale al equipo.' }
       ]},
       { id:'tools', e:'⌨️', title:'Herramientas de Blender de la primera lección', blocks:[
@@ -200,7 +200,7 @@ COURSE.modules = [
         ]},
         { t:'callout', kind:'warn', e:'🖼️', html:'<b>La plataforma y Kodland Sparks reciben imágenes, no archivos .blend.</b> Si un estudiante intenta subir el proyecto de Blender, recuérdale: el .blend se queda en su computadora y lo que se sube es la imagen.' },
         { t:'p', html:'Los <b>desafíos de Sparks</b> forman parte de las actividades para casa, y los proyectos del curso se publican en <b>Kodland Sparks</b>: el primero es el Marble Run, después del módulo de animación (módulo 4), y al final del curso el portafolio y el proyecto final. Practica aquí cómo se publica un proyecto:' },
-        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulación', title:'Publicar en Kodland Sparks', text:'Una réplica de Kodland Sparks: publicas un proyecto como una estudiante, conoces las tres opciones de visibilidad y resuelves los dos problemas más comunes. Toma unos 5 minutos. La verificación del módulo se desbloquea al terminar.' }
+        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulación', title:'Publicar en Kodland Sparks', text:'Una réplica de Kodland Sparks: publicas un proyecto como una estudiante, conoces las tres opciones de visibilidad y resuelves los dos problemas más comunes. Toma unos 5 minutos. La verificación del módulo se desbloquea al terminar.' }
       ]},
       { id:'guides', e:'🧰', title:'Guías técnicas paso a paso', blocks:[
         { t:'p', html:'Estas son las guías del equipo del curso que se mencionan en la preparación de la L1. Ábrelas antes de tu primera clase y tenlas a mano:' },

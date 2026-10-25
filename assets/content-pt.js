@@ -72,7 +72,7 @@ COURSE.color = '#14B8A6';
 COURSE.home = {
   kicker: '🎓 Formação de curso · Modelagem 3D',
   title: 'Modelagem <span class="hl">3D</span>',
-  lead: 'Uma viagem pelo Oceano 3D, para alunos de 13–17 anos: no Blender, eles aprendem a transformar suas ideias em modelos e animações 3D, da primeira composição geométrica até o próprio projeto. Dois módulos: o conteúdo do curso e a parte técnica das aulas.',
+  lead: 'Uma viagem pelo Oceano 3D, para alunos de 13-17 anos: no Blender, eles vão aprender a transformar suas ideias em modelos e animações 3D, da primeira composição geométrica até o projeto autoral. Dois módulos: o conteúdo do curso e a parte técnica das aulas.',
   facts: [
     ['🧑‍💻', '<b>No seu ritmo.</b> O progresso fica salvo neste navegador. Cada módulo termina com uma verificação curta.'],
     ['⚡', '<b>Prática incluída.</b> Uma simulação do Kodland Sparks para treinar a publicação de projetos e os problemas mais comuns.']
@@ -82,14 +82,14 @@ COURSE.home = {
 /* Notes shown at the top of the home page */
 COURSE.notes = [
   { kind:'pink', e:'🧭', html:'<b>Antes de começar:</b> faça primeiro a <b>formação principal do Novo Modelo Educacional (EM)</b>. Esta formação do curso vem depois e parte do que você já viu lá: o Backoffice e as Teacher Notes, o Classroom com o Follow Mode, o tour pelo Kodland Sparks e a qualidade da aula.' },
-  { kind:'warn', e:'🔄', html:'<b>O conteúdo das aulas no Backoffice vai sendo atualizado.</b> Com o feedback de alunos e tutores, as aulas estão sempre sendo melhoradas. Não se preocupe: quando houver mudanças, você será avisado com antecedência para preparar a aula.' }
+  { kind:'warn', e:'🔄', html:'<b>O conteúdo das aulas no Backoffice é atualizado continuamente.</b> A partir do feedback de alunos e tutores, as aulas passam por melhorias constantes. Não se preocupe: quando houver mudanças, você será avisado com antecedência para preparar a aula.' }
 ];
 
 /* ---------------- Modules ---------------- */
 COURSE.modules = [
   { id:'m1', n:1, e:'🧊', color:'#14B8A6', title:'O conteúdo do curso',
-    desc:'Como a Modelagem 3D é ensinada no novo modelo, a primeira aula e as ferramentas do Blender usadas nela.',
-    obj:'Prepare-se para dar a primeira aula de Modelagem 3D, em que alunos de 13–17 anos instalam o Blender, aprendem a mover, girar e escalar objetos e criam a primeira composição geométrica com materiais coloridos.',
+    desc:'Como a Modelagem 3D é ensinada no novo modelo, a primeira aula e as ferramentas do Blender utilizadas nela.',
+    obj:'Prepare-se para dar a primeira aula de Modelagem 3D. Nela, alunos de 13 a 17 anos vão instalar o Blender, aprender a mover, girar e escalar objetos e criar a primeira composição geométrica com materiais coloridos.',
     offer:[['🎨','Conhecer o curso e a forma de trabalho.'],['📖','Saber o que acontece em cada cartão da primeira aula.'],['⌨️','Revisar as ferramentas do Blender usadas na primeira aula.'],['📘','Revisar a aula e as Teacher Notes no Backoffice.']],
     sections:[
       { id:'ov', e:'🎨', title:'O curso', blocks:[
@@ -99,10 +99,10 @@ COURSE.modules = [
           ['🖱️','Ação antes da teoria','Você mostra uma ação, o aluno repete na tela dele e mostra o resultado — não só o que entendeu.'],
           ['🧩','O erro faz parte do processo','Primeiro uma pergunta de diagnóstico, depois uma dica que ele possa seguir. Você nunca corrige o trabalho pelo aluno.']
         ]},
-        { t:'callout', kind:'good', e:'🤖', html:'Para casa, além das atividades práticas e dos testes, há os <b>desafios do Sparks</b>: atividades especiais revisadas pelo tutor de IA, com uma recompensa à parte 💎 e um certificado.' }
+        { t:'callout', kind:'good', e:'🤖', html:'Como tarefa de casa, além das atividades práticas e dos testes, há os <b>desafios do Sparks</b>: atividades especiais revisadas pelo tutor de IA, com uma recompensa à parte 💎 e um certificado.' }
       ]},
       { id:'goals', e:'🎓', title:'O que o aluno conquista', blocks:[
-        { t:'p', html:'Ao terminar o curso, o aluno tem estas conquistas:' },
+        { t:'p', html:'Ao terminar o curso, o aluno vai alcançar estas conquistas:' },
         { t:'cards', cols:2, items:[
           ['🧱','Cria','Nove miniprojetos e um projeto final: uma casinha e um robô, um cenário para um jogo de plataforma, o interior de um quarto, um Marble Run, um modelo humano, a caminhada de um personagem, vídeos de simulações, e um cenário e um personagem com IA.'],
           ['🤖','Usa a IA como ferramenta','Propõe uma tarefa, obtém uma ideia, um conceito, um esboço, um modelo ou uma textura, e aperfeiçoa o resultado no Blender. <b>Decide por conta própria quais serviços usar</b>: o curso ensina uma abordagem, não uma ferramenta específica.'],
@@ -115,12 +115,12 @@ COURSE.modules = [
       { id:'les', e:'📖', title:'A primeira aula', blocks:[
         { t:'p', html:'Por enquanto, a primeira aula do curso está disponível. Abra e revise cada parte:' },
         { t:'lessons', key:'m1', items:[
-          { tab:'A1', e:'🎨', h:'Aula 1 — Conhecendo os objetos 3D', p:'Primeira aula do programa. Os alunos conhecem o ambiente de estudo (Classroom e a plataforma Kodland), instalam o Blender e aprendem o básico do <b>Object Mode</b>. A primeira missão como artistas 3D: criar a própria composição com figuras geométricas e aplicar materiais coloridos.',
-            acc:[['📚','O que você precisa saber','<ul><li><b>Navegação:</b> a roda do mouse aproxima e afasta; o botão do meio gira em volta do modelo; <b>Shift</b> + botão do meio desloca a vista. No touchpad: juntar e afastar dois dedos, deslizar dois dedos, e <b>Shift</b> + deslizar dois dedos.</li><li><b>G</b> move, <b>R</b> gira, <b>S</b> escala. Depois da tecla, <b>X</b> (vermelho), <b>Y</b> (verde) ou <b>Z</b> (azul) limitam a ação a um eixo. No Blender, para cima e para baixo é o eixo <b>Z</b>.</li><li><b>Shift + A → Mesh</b> acrescenta uma figura (ela aparece onde está o 3D Cursor); <b>X</b> ou <b>Del</b> apaga; botão direito → <b>Shade Smooth</b> suaviza.</li><li><b>Materiais:</b> Material Preview → Material → <b>New</b> → <b>Base Color</b>. Opcional: luz (Sun: Color e Power) e cor do ambiente no modo Rendered.</li><li><b>Captura do resultado:</b> desativar <b>Overlays</b> → <b>View → Viewport Render</b> → <b>Image → Save As</b>.</li></ul>'],
+          { tab:'A1', e:'🎨', h:'Aula 1 — Conhecendo os objetos 3D', p:'Primeira aula do programa. Os alunos conhecem o ambiente de estudo (Classroom e a plataforma Kodland), instalam o Blender e aprendem o básico do <b>Object Mode</b>. A primeira missão como artistas 3D: criar uma composição própria com figuras geométricas e aplicar materiais coloridos.',
+            acc:[['📚','O que você precisa saber','<ul><li><b>Navegação:</b> a roda do mouse aproxima e afasta; o botão do meio gira em volta do modelo; <b>Shift</b> + botão do meio desloca a vista. No touchpad: juntar e afastar dois dedos, deslizar dois dedos, e <b>Shift</b> + deslizar dois dedos.</li><li><b>G</b> move, <b>R</b> gira, <b>S</b> escala. Depois da tecla, <b>X</b> (vermelho), <b>Y</b> (verde) ou <b>Z</b> (azul) limitam a ação a um eixo. No Blender, para cima e para baixo é o eixo <b>Z</b>.</li><li><b>Shift + A → Mesh</b> acrescenta uma figura (ela aparece onde está o 3D Cursor); <b>X</b> ou <b>Del</b> apaga; botão direito → <b>Shade Smooth</b> suaviza.</li><li><b>Materiais:</b> Material Preview → Material → <b>New</b> → <b>Base Color</b>. Opcional: luz (Sun: Color e Power) e cor do ambiente no modo Rendered.</li><li><b>Print do resultado:</b> desativar <b>Overlays</b> → <b>View → Viewport Render</b> → <b>Image → Save As</b>.</li></ul>'],
                  ['⏱️','Tempos (90 min)','<ul><li><b>Introdução (15 min):</b> Vamos nos conhecer melhor! (8), Kodland Universe e boas-vindas ao curso (7).</li><li><b>Parte principal (65 min):</b> instalação do Blender (10), transformações de objetos (12), crie a sua própria composição! (23), materiais (15), resultado final (5).</li><li><b>Parte final (10 min):</b> resumo, reflexão e chat do grupo (5); missão para casa e o que vem depois (5).</li></ul>'],
-                 ['🎯','Resultado-chave','<ul><li>Orienta-se no ambiente de estudo (Classroom e a plataforma Kodland).</li><li>Cria uma composição com pelo menos <b>5 objetos geométricos</b> (pode ser reduzida a três se não der tempo de terminar).</li><li>Move, gira e escala objetos com G/R/S e os eixos X/Y/Z.</li><li>Aplica materiais coloridos aos objetos.</li><li>Salva o arquivo <b>.blend</b> e envia uma captura de tela do trabalho na plataforma.</li></ul>'],
+                 ['🎯','Resultado-chave','<ul><li>Orienta-se no ambiente de estudo (Classroom e a plataforma Kodland).</li><li>Cria uma composição com pelo menos <b>5 objetos geométricos</b> (pode ser reduzida a três se não der tempo de terminar).</li><li>Move, gira e escala objetos com G/R/S e os eixos X/Y/Z.</li><li>Aplica materiais coloridos aos objetos.</li><li>Salva o arquivo <b>.blend</b> e envia um print do trabalho na plataforma.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Ajude os alunos a se familiarizar com a interface e chegar rápido a um <b>primeiro resultado</b>: não sobrecarregue a aula com teoria. Primeiro você mostra a ação, depois o aluno repete.</li><li>No início, crie conexão com o grupo, ajude-os a se orientar e identifique a tempo qualquer problema técnico.</li><li>A prática <b>não é uma cópia do exemplo</b>: o tema, as formas, a distribuição e a paleta são escolha do aluno.</li><li>Encerre ajudando cada aluno a registrar o resultado e a reconhecer uma conquista concreta, sem comparar trabalhos.</li></ul>'],
-                 ['⚙️','Pontos de atenção','<ul><li>Trabalha-se no <b>Object Mode</b>: nada de editar vértices, arestas ou faces (isso vem na próxima aula).</li><li>Na primeira aula não é obrigatório usar atalhos: os alunos podem usar as ferramentas do menu lateral esquerdo.</li><li>Durante a prática independente, todos compartilham a tela e você acompanha e apoia a tempo.</li><li>Se um aluno não conseguir abrir o Blender, encaminhe o caso ao <b>suporte técnico</b> numa sala separada.</li><li>Se o tempo não for suficiente, você pode reduzir a composição a <b>três figuras</b> e deixar a cor de lado.</li></ul>']] }
+                 ['⚙️','Pontos de atenção','<ul><li>Trabalha-se no <b>Object Mode</b>: nada de editar vértices, arestas ou faces (isso vem na próxima aula).</li><li>Na primeira aula não é obrigatório usar atalhos: os alunos podem usar as ferramentas do menu lateral esquerdo.</li><li>Durante a prática independente, todos fazem o compartilhamento de tela para que você acompanhe e dê apoio no momento certo.</li><li>Se um aluno não conseguir abrir o Blender, encaminhe o caso ao <b>suporte técnico</b> numa sala separada.</li><li>Se o tempo não for suficiente, você pode reduzir a composição a <b>três figuras</b> e deixar a cor de lado.</li></ul>']] }
         ]},
         { t:'callout', kind:'tip', e:'🔭', html:'<b>Próxima aula:</b> os alunos passam para o <b>Edit Mode</b>, editam vértices, arestas e faces, e modelam uma casa a partir de um cubo. No encerramento da A1 isso é antecipado: hoje ainda não editamos a forma dos objetos.' },
         { t:'callout', kind:'tip', e:'🗺️', html:'A primeira Teacher Note da aula tem o plano completo: missão, objetivo, resultado-chave, um vídeo, a preparação, os tempos de cada cartão e os pontos de atenção. <b>Leia todas as Teacher Notes antes da aula.</b> Os materiais foram criados com o Blender 4.5.3; se você notar uma diferença importante na versão atual, avise a equipe.' }
@@ -133,7 +133,7 @@ COURSE.modules = [
           ['➕','Acrescentar e apagar','<b>Shift + A → Mesh</b> acrescenta uma figura no 3D Cursor. <b>X</b> ou <b>Del</b> apaga o objeto selecionado (destacado em laranja).'],
           ['✨','Suavizar','Botão direito → <b>Shade Smooth</b> ou <b>Shade Auto Smooth</b>, para que o objeto não fique facetado.'],
           ['🎨','Materiais','<b>Material Preview</b> → ícone do círculo vermelho <b>Material</b> → <b>New</b> → <b>Base Color</b>. Um material já criado é escolhido pelo círculo.'],
-          ['📷','Captura e salvamento','Desativar <b>Overlays</b> → <b>View → Viewport Render</b> → <b>Image → Save As</b>. O projeto é salvo com <b>File → Save</b>; <b>Ctrl + Z</b> desfaz.']
+          ['📷','Print e salvamento','Desativar <b>Overlays</b> → <b>View → Viewport Render</b> → <b>Image → Save As</b>. O projeto é salvo com <b>File → Save</b>; <b>Ctrl + Z</b> desfaz.']
         ]},
         { t:'callout', kind:'tip', e:'📺', html:'Se esta é a sua primeira aula de Modelagem 3D, instale o <b>Screencast Keys</b>: ele mostra na tela as teclas que você pressiona, e assim os alunos veem cada atalho enquanto você demonstra. No Módulo 2 você encontra o passo a passo.' }
       ]},
@@ -163,7 +163,7 @@ COURSE.modules = [
         { t:'p', html:'Estes são os pontos de foco para as aulas de Modelagem 3D. Abra cada um:' },
         { t:'acc', items:[
           ['📥','A1: a instalação, com as opções do cartão','<p>Guie a instalação seguindo <b>as opções do cartão</b>, de acordo com o computador do aluno:</p><ul><li><b>Windows recente ou Mac com Apple Silicon:</b> a versão atual, em <a href="https://www.blender.org/download/" target="_blank" rel="noopener">blender.org/download</a>.</li><li><b>Computador mais antigo (Windows antigo ou Mac com Intel):</b> <a href="https://www.blender.org/releases/4-5/" target="_blank" rel="noopener">Blender 4.5 LTS</a>.</li><li>Se o aluno tem <b>Steam</b>, pode instalar por lá, e o programa se atualiza sozinho.</li><li>Os alunos que já estão prontos <b>seguem com a aula</b>; se o Blender está baixando, o aluno segue com o grupo e termina a instalação depois.</li><li>Drivers, fechamentos inesperados e travamentos são resolvidos individualmente com o <b>suporte técnico</b>, numa sala separada.</li></ul>'],
-          ['🖼️','Todos terminam e entregam o trabalho da A1','<p>Garanta que <b>cada aluno salve a composição e envie a captura enquanto o Blender ainda está aberto</b>.</p><ul><li>Primeiro <b>File → Save</b>; depois a captura com <b>View → Viewport Render</b> e <b>Image → Save As</b>.</li><li>Confirme que todos enviaram a imagem e clicaram em <b>«Enviar»</b>.</li><li>Se o Blender fechar antes de salvar, veja com eles como recuperar o projeto (guia mais abaixo).</li></ul>'],
+          ['🖼️','Todos terminam e entregam o trabalho da A1','<p>Garanta que <b>cada aluno salve a composição e envie o print enquanto o Blender ainda estiver aberto</b>.</p><ul><li>Primeiro <b>File → Save</b>; depois o print com <b>View → Viewport Render</b> e <b>Image → Save As</b>.</li><li>Confirme que todos enviaram a imagem e clicaram em <b>«Enviar»</b>.</li><li>Se o Blender fechar antes de salvar, veja com eles como recuperar o projeto (guia mais abaixo).</li></ul>'],
           ['🖱️','Primeiro os botões, depois os atalhos','<p>Mostre primeiro as <b>ferramentas na tela</b> (a barra lateral esquerda) e depois os <b>atalhos de teclado</b>.</p><ul><li>Na primeira aula os atalhos não são obrigatórios: se o aluno achar o menu lateral mais confortável, pode usá-lo.</li><li>Assim ninguém se perde no começo, e os atalhos aceleram o trabalho depois.</li></ul>'],
           ['🚫','Sem exceções nas entregas, nunca pelo chat','<p><b>Não dispense o trabalho nem aceite imagens pelo chat.</b> A entrega é feita no cartão da atividade, com «Enviar».</p><ul><li>Se o tempo não for suficiente, ajuste a tarefa (três figuras e sem cor), mas o resultado é enviado na plataforma do mesmo jeito.</li></ul>'],
           ['🔁','Mostrar os trabalhos e entrar no chat do grupo','<p>Mostre rapidamente os trabalhos da aula anterior <b>no início da aula seguinte</b>, se os autores concordarem.</p><ul><li>No encerramento da A1, envie pelo Backoffice o link do <b>chat do grupo</b>: as informações do curso são compartilhadas lá, não por mensagens privadas.</li><li>Se um aluno não puder ou não quiser entrar, não o obrigue; convide-o e registre a situação na avaliação do tutor no Backoffice.</li></ul>']
@@ -174,7 +174,7 @@ COURSE.modules = [
           ['Um dia antes da A1','Lembre os alunos de instalar o Blender e envie o link do <a href="https://www.blender.org/download/" target="_blank" rel="noopener">site oficial de download</a>.'],
           ['O seu equipamento, pronto','Se é a sua primeira aula, instale o <b>Screencast Keys</b> e veja como recuperar um projeto se o Blender fechar (os guias estão mais abaixo).'],
           ['15 minutos antes','Entre antes, converse com os alunos que vão chegando e confirme quem já tem o Blender instalado.'],
-          ['Compartilhe a tela quando precisar','Comece a chamada com a câmera ligada e sem compartilhar a tela, para se conectar primeiro com o grupo. Confira se você consegue compartilhar a tela e se o Blender está pronto.']
+          ['Compartilhe a tela quando precisar','Comece a chamada com a câmera ligada e sem compartilhar a tela, para se conectar primeiro com o grupo. Confira se você consegue fazer o compartilhamento de tela e se o Blender está pronto.']
         ]}
       ]},
       { id:'req', e:'💻', title:'Requisitos do computador', blocks:[
@@ -190,17 +190,17 @@ COURSE.modules = [
         { t:'callout', kind:'tip', e:'💡', html:'Se o Blender não abrir no equipamento de um aluno, siga o que você já viu na A1: confira se ele escolheu a opção certa do cartão (Blender 4.5 LTS em computadores mais antigos) e, se continuar sem funcionar, encaminhe o caso ao suporte técnico numa sala separada.' }
       ]},
       { id:'publish', e:'📤', title:'Entregar o trabalho e o Kodland Sparks', blocks:[
-        { t:'p', html:'O Blender salva o projeto como arquivo <b>.blend</b>, mas o que se entrega é uma <b>imagem</b>. Na A1, é a captura do <b>Viewport Render</b>. Estes são os passos:' },
+        { t:'p', html:'O Blender salva o projeto como arquivo <b>.blend</b>, mas o que se entrega é uma <b>imagem</b>. Na A1, é o print do <b>Viewport Render</b>. Estes são os passos:' },
         { t:'steps', items:[
           ['Salvar o arquivo .blend','<b>File → Save</b>, com o nome <b>«composição geométrica»</b>. O .blend fica salvo no computador do aluno: é o projeto para continuar trabalhando.'],
           ['Preparar a vista','Desativar o ícone <b>Overlays</b> (no canto superior direito) para esconder a grade, os eixos, a câmera e as luzes.'],
-          ['Fazer a captura','<b>View → Viewport Render</b>.'],
-          ['Salvar a imagem','Na janela da captura: <b>Image → Save As</b>, no computador.'],
-          ['Enviar a imagem e clicar em «Enviar»','Arrastar a imagem para o campo do cartão «Resultado final» na plataforma Kodland. Sem «Enviar», o trabalho não fica registrado. As atividades para casa são enviadas do mesmo jeito.']
+          ['Tirar o print','<b>View → Viewport Render</b>.'],
+          ['Salvar a imagem','Na janela do print: <b>Image → Save As</b>, no computador.'],
+          ['Enviar a imagem e clicar em «Enviar»','Arrastar a imagem para o campo do cartão «Resultado final» na plataforma Kodland. Sem «Enviar», o trabalho não fica registrado. As tarefas de casa são enviadas do mesmo jeito.']
         ]},
         { t:'callout', kind:'warn', e:'🖼️', html:'<b>A plataforma e o Kodland Sparks recebem imagens, não arquivos .blend.</b> Se um aluno tentar enviar o projeto do Blender, lembre: o .blend fica no computador dele e o que se envia é a imagem.' },
-        { t:'p', html:'Os <b>desafios do Sparks</b> fazem parte das atividades para casa, e os projetos do curso são publicados no <b>Kodland Sparks</b>: o primeiro é o Marble Run, depois do módulo de animação (módulo 4), e no final do curso o portfólio e o projeto final. Treine aqui como se publica um projeto:' },
-        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'p', html:'Os <b>desafios do Sparks</b> fazem parte das tarefas de casa, e os projetos do curso são publicados no <b>Kodland Sparks</b>: o primeiro é o Marble Run, depois do módulo de animação (módulo 4), e no final do curso o portfólio e o projeto final. Treine aqui como se publica um projeto:' },
+        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'guides', e:'🧰', title:'Guias técnicos passo a passo', blocks:[
         { t:'p', html:'Estes são os guias da equipe do curso mencionados na preparação da A1. Abra-os antes da sua primeira aula e deixe-os à mão:' },
@@ -238,7 +238,7 @@ COURSE.modules = [
         { t:'check', title:'✅ Meu checklist técnico', groups:[
           { h:'☑️ Antes da aula', items:['Li todas as Teacher Notes da aula e vi o vídeo da primeira.','Estou com o Blender pronto, o Screencast Keys instalado e sei como recuperar um projeto.','Na A1, lembrei os alunos de instalar o Blender com um dia de antecedência.'] },
           { h:'🎬 Durante a aula', items:['Mostro primeiro a ferramenta na tela e depois o atalho.','Depois de cada ação importante, peço que me mostrem o resultado na tela.','Não corrijo o trabalho: faço uma pergunta de diagnóstico e dou uma dica.'] },
-          { h:'📤 No final da aula', items:['Todos salvaram o .blend e enviaram a captura com «Enviar» — nada pelo chat.','Enviei o link do chat do grupo pelo Backoffice.','Anotei quais trabalhos mostrar no início da próxima aula.'] }
+          { h:'📤 No final da aula', items:['Todos salvaram o .blend e enviaram o print com «Enviar» — nada pelo chat.','Enviei o link do chat do grupo pelo Backoffice.','Anotei quais trabalhos mostrar no início da próxima aula.'] }
         ]}
       ]}
     ]}
@@ -273,11 +273,11 @@ COURSE.quiz = {
       q:'O que você faz?',
       o:['Para o grupo até resolver.','Confere se ele escolheu a opção certa do cartão e, se continuar sem funcionar, encaminha o caso ao suporte técnico numa sala separada enquanto o grupo continua.','Pede que ele volte na próxima aula.'],
       a:1, e:'Os problemas individuais não atrasam o grupo. Em computadores antigos usa-se o Blender 4.5 LTS, e o suporte técnico resolve os casos que continuam.' },
-    { ctx:'No final da aula, um aluno manda a captura da composição pelo chat.',
+    { ctx:'No final da aula, um aluno manda o print da composição pelo chat.',
       q:'O que você responde?',
       o:['Agradece e salva você mesmo a imagem no seu computador para ver depois.','Agradece e, com gentileza, pede que ele envie a imagem também no cartão da atividade e clique em «Enviar», para que o trabalho fique registrado.','Diz que ele não precisa se preocupar, que nesta aula não é preciso entregar.'],
       a:1, e:'Agradecer o trabalho e orientar com gentileza: a entrega só fica registrada no cartão da atividade, com «Enviar». Por isso não se aceitam imagens pelo chat nem se dispensa o trabalho.' },
-    { q:'Como se faz a captura do resultado final no Blender?',
+    { q:'Como se faz o print do resultado final no Blender?',
       o:['Com a tecla Print Screen, com todos os painéis visíveis.','Desativando Overlays, depois View → Viewport Render e salvando a imagem com Image → Save As.','Salvando o arquivo .blend e enviando-o.'],
       a:1, e:'Sem Overlays, a grade, os eixos e as luzes ficam escondidos; o Viewport Render cria a imagem e o Image → Save As a salva.' },
     { q:'Como você apresenta uma ferramenta nova do Blender na primeira aula?',
@@ -285,7 +285,7 @@ COURSE.quiz = {
       a:1, e:'Primeiro o que se vê na tela; depois o atalho. Na primeira aula os atalhos não são obrigatórios.' },
     { ctx:'Um aluno quer enviar na plataforma o arquivo «composição geométrica.blend».',
       q:'O que você diz?',
-      o:['Que envie assim, é o projeto completo.','Que o .blend fica no computador dele e que envie a imagem da captura (Viewport Render).','Que mande compactado pelo chat.'],
+      o:['Que envie assim, é o projeto completo.','Que o .blend fica no computador dele e que envie o print (Viewport Render).','Que mande compactado pelo chat.'],
       a:1, e:'A plataforma e o Kodland Sparks recebem imagens. O .blend é o projeto de trabalho e fica salvo no computador.' },
     { q:'Segundo os requisitos do curso, quanta memória RAM o computador do aluno precisa ter?',
       o:['4 GB.','8 GB.','32 GB.'],
