@@ -295,7 +295,7 @@ COURSE.quiz = {
 
 /* ---------------- Final page ---------------- */
 COURSE.done = {
-  title: 'Módulos concluídos!',
+  title: 'Último passo: volte ao LMS e faça o DST',
   html: `<p>Você está quase lá! Volte à página da formação no LMS, onde você acessou esta formação. O teste DST está logo abaixo da formação.</p>
     <p>👉 <b>Você precisa fazer e passar no teste DST para que a formação seja considerada concluída.</b> Se você não fizer o DST, a formação vai continuar incompleta e pode expirar.</p>
     <p>A nota mínima para passar é <b>80%</b>.</p>
